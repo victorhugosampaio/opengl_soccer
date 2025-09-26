@@ -39,8 +39,8 @@ teclas = {"w": False, "a": False, "s": False, "d": False}
 # Define os jogadores
 jogadores = []
 
-# Define o tempo de jogo
-tempo_total = 10
+# Define o tempo de jogo em segundos
+tempo_total = 180
 tempo_restante = tempo_total
 fim_de_jogo = False
 
@@ -452,3 +452,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
